@@ -1,0 +1,27 @@
+{
+  "name": "movie-find-app-react",
+  "version": "1.0.0",
+  "description": "An app that will let you search for movies in the IMDB database and show info and link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React.JS",
+    "JavaScript"
+  ],
+  "author": "Andrei Ghervan",
+  "license": "ISC",
+  "devDependencies":{
+    "browserify":"*",
+    "flux":"*",
+    "gulp":"*",
+    "reactify":"*",
+    "vinyl-source-stream":"*",
+    "object-assign":"*"
+  },
+  "dependencies":{
+    "react":"^0.14.7",
+    "react-dom":"^0.14.7"
+  }
+}
