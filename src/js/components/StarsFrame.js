@@ -6,7 +6,7 @@ var StarsFrame = React.createClass({
     render: function () {
 var numberOfStars=Math.floor(Math.random()*9)+1;
         var stars=[];
-        for(var i=0;i<this.props.numberOfStars;i++){
+        for(var i=0;i<numberOfStars;i++){
             stars.push(
                 <span className="glyphicon glyphicon-star"></span>
             )
